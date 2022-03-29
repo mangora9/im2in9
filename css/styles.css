@@ -11439,3 +11439,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.flex-grow-1 li {
+  margin-bottom: 10px;
+}
