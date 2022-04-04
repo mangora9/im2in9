@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -38,7 +39,7 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h4 style="color: #458d40;">카멜레온 같은 개발자</h4>
+                    <h4 class="textGreen">카멜레온 같은 개발자</h4>
                     <h1 class="mb-5">
                         이 인 구
                         <span class="text-secondary">LEE IN GU</span>
@@ -55,10 +56,11 @@
                     </div>
                     <hr/>
                     <p class="lead">4년차 개발자 이인구 입니다.</p>
-                    <p class="lead">2018년 9월 첫 입사를 시작으로 웹개발자의 길을 걷기 시작했습니다.</p>
+                    <p class="lead">주로 웹 서비스 개발을 담당하였습니다.</p>
                     <p class="lead">HTML/CSS, JavaScript를 사용하여 UI위주의 개발부터 시작하여</p>
                     <p class="lead">전자정부프레임워크, vuejs, spring boot를 사용하기까지 다양한 경험을 해보았습니다.</p>
-                    <p class="lead">팀원과 소통하는 것을 좋아합니다 :)</p>
+                    <p class="lead">필요에 따라 작은 프로젝트의 PM의 역할을 수행해 본 경험도 있습니다.</p>
+                    <p class="lead">코드의 중복을 줄이고, 공통화 할 수 있는 부분은 공통화하기 위해서 항상 고민하며 개발하고 있습니다.</p>
                     <hr/>
                 </div>
             </section>
@@ -67,39 +69,30 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <ul>
-                        <li>
-                            Front-End : JavaScript(+jQuery), Vuejs, HTML/CSS
-                            <ul class="list-inline dev-icons">
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/></li>
-                                <li class="list-inline-item"><img src="https://img.icons8.com/ios/50/000000/jquery.png"/></li>
-                                <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                                                  width="64" height="64"
-                                                                  viewBox="0 0 172 172"
-                                                                  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2ecc71"><path d="M16.125,32.25l69.875,118.25l69.875,-118.25h-53.75l-16.125,28.4917l-16.125,-28.4917zM34.9375,43h20.27173l30.79077,53.75l30.79077,-53.75h20.27173l-51.0625,86.5354z"></path></g></g></svg></li>
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/></li>
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png"/></li>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5 class="text-secondary">Front-end</h5>
+                            <ul>
+                                <li>JavaScript(+jQuery), Vuejs, HTML/CSS</li>
                             </ul>
                         </li>
-                        <li>
-                            Back-End : Java, EgovFramework, SpringFramework, Spring Boot
-                            <ul class="list-inline dev-icons">
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/></li>
-                                <li class="list-inline-item"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-eclipse-an-integrated-development-environment-used-in-computer-programming-logo-shadow-tal-revivo.png"/></li>
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/spring-logo.png"/></li>
+                        <li class="list-group-item">
+                            <h5 class="text-secondary">Back-end</h5>
+                            <ul>
+                                <li>Java, Spring</li>
                             </ul>
                         </li>
-                        <li>
-                            Database : Oracle, PostgreSQL
-                            <ul class="list-inline dev-icons">
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/oracle-logo.png"/></li>
-                                <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/postgreesql.png"/></li>
+                        <li class="list-group-item">
+                            <h5 class="text-secondary">Database</h5>
+                            <ul>
+                                <li>Oracle, PostgreSQL</li>
                             </ul>
                         </li>
-                        <li>
-                            Version Control : SVN
-                            <ul class="list-inline dev-icons">
-                                <li class="list-inline-item"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-subversion-a-software-versioning-and-revision-control-system-logo-shadow-tal-revivo.png"/></li>
+                        <li class="list-group-item">
+                            <h5 class="text-secondary">Version Control</h5>
+                            <ul>
+                                <li>svn, git</li>
                             </ul>
                         </li>
                     </ul>
@@ -115,12 +108,18 @@
                         <div class="flex-grow-1">
                             <h4 class="mb-0">건물에너지 광역검진서비스 플랫폼 구축</h4>
                             <div class="subheading2 mb-1">IDE : IntelliJ, DBeaver</div>
-                            <div class="subheading2 mb-1">Framework : Spring Boot, Vuejs, myBatis</div>
-                            <div class="subheading2 mb-3">Language : Java, JavaScript, PostgreSQL</div>
+                            <div class="subheading2 mb-1">Front-end : JavaScript, Vuejs, HTML/CSS</div>
+                            <div class="subheading2 mb-3">Back-end : Spring Boot, Java</div>
+                            <div class="subheading2 mb-3">Database : PostgreSQL</div>
                             <ul>
-                                <li>Spring Boot, Vue.js, PostgreSQL 기반의 개발 환경 구성 및 화면 설계</li>
-                                <li>프로젝트를 수행함에 있어서 필요한 공통 클래스 및 공통 js 개발</li>
-                                <li>20여가지 조건을 저장하고, 저장된 조건으로 건축물 정보를 확인할 수 있는 서비스 개발(검진 필터 서비스)</li>
+                                <li>Spring Boot, Vuejs, PostgreSQL 기반의 개발 환경 구성 및 사이트 화면 설계</li>
+                                <li>
+                                    공통 클래스 및 공통 컴포넌트, 공통 js 개발
+                                    <ul>
+                                        <li>중복코드를 줄여 프로젝트 생산성 증가에 기여</li>
+                                    </ul>
+                                </li>
+                                <li>20여가지 조건을 저장하고, 저장된 조건으로 건축물 정보(건축물 대장, 연별/월별 에너지 사 용량, 엑셀다운 등)를 확인할 수 있는 서비스 개발</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2021.05 - 2021.12</span></div>
@@ -133,21 +132,27 @@
                             <div class="subheading2 mb-3">Language : Java, JavaScript(+jQuery), Oracle</div>
 
                             <div class="d-flex flex-row">
-                                <div class="p-2 text-center align-middle"><p>1차</p></div>
                                 <div class="p-2">
-                                    <ul class="mx-lg-5 mb-2">
-                                        <li>프로젝트 개발 환경 구성 및 화면 설계</li>
-                                        <li>관리자 기능 개발(메뉴, 사용자 관리)</li>
-                                        <li>기업 사용자 기능 개발(일반 사용자의 요청을 승인/반려하는 기능)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-row">
-                                <div class="p-2 text-center align-middle"><p>2차</p></div>
-                                <div class="p-2">
-                                    <ul class="mx-lg-5 mb-2">
-                                        <li>약 20만건의 데이터를 엑셀로 다운받는 기능 개발</li>
-                                        <li>시스템 유지 보수</li>
+                                    <ul>
+                                        <li>프로젝트 개발 환경 구성 및 화면 설계서 작성</li>
+                                        <li>
+                                            관리자 기능 개발
+                                            <ul>
+                                                <li>메뉴 관리, 사용자 관리 화면을 개발</li>
+                                                <li>DB를 사용하여 메뉴 권한, 메뉴 구조 등을 설정하는 법을 경험</li>
+                                            </ul>
+                                        </li>
+                                        <li>기업 사용자 기능 개발
+                                            <ul>
+                                                <li>일반 사용자의 요청을 승인/반려 하는 기능 개발</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            엑셀 다운로드 기능 개발
+                                            <ul>
+                                                <li>Java OOM을 겪어보았고, 해당 오류를 해결(데이터 약 20만건)</li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -161,45 +166,80 @@
                             <div class="subheading2 mb-1">Framework : EgovFrame 3.7.0, iBatis</div>
                             <div class="subheading2 mb-3">Language : Java, JavaScript(+jQuery), Oracle</div>
                             <div class="d-flex flex-row">
-                                <div class="p-2 text-center align-middle"><p>1차</p></div>
+                                <div class="p-2 text-center align-middle">
+                                    <p>1차<br/>(2018.09 - 2018.12)</p>
+                                </div>
                                 <div class="p-2">
-                                    <ul class="mx-lg-5 mb-2">
-                                        <li>WINDOW기반의 평가프로그램을 WEB버전으로 개발</li>
+                                    <ul>
+                                        <li>WINDOW 기반 실행파일 형식으로 개발된 평가프로그램을 WEB버전으로 개발</li>
                                         <li>화면 설계서를 기반으로 한 웹 페이지 개발</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="d-flex flex-row">
-                                <div class="p-2 text-center align-middle"><p>2차</p></div>
+                                <div class="p-2 text-center align-middle">
+                                    <p>2차<br/>(2019.06 - 2019.09)</p>
+                                </div>
                                 <div class="p-2">
-                                    <ul class="mx-lg-5 mb-2">
-                                        <li>외부 사이트와의 데이터 연계 REST API 개발</li>
-                                        <li>WINDOW기반 프로그램과 WEB버전과의 평가 결과 데이터 검증</li>
+                                    <ul>
+                                        <li>WINDOW기반 프로그램과 WEB 버전과의 평가 결과 데이터 검증</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="d-flex flex-row">
-                                <div class="p-2 text-center align-middle"><p>3차</p></div>
+                                <div class="p-2 text-center align-middle">
+                                    <p>3차<br/>(2020.06 - 2020.11)</p>
+                                </div>
                                 <div class="p-2">
-                                    <ul class="mx-lg-5 mb-2">
-                                        <li>처음으로 PM을 맡아서 사업에 참여</li>
-                                        <li>새롭게 디자인 된 UI 적용 및 관리자 기능 유지보수</li>
+                                    <ul>
+                                        <li>외부 사이트와의 데이터 연계 REST API 개발</li>
+                                        <li>API 명세서 작성 및 API 관련 테이블 초안 설계</li>
+                                        <li>소비총량평가 온라인서비스 교육용 매뉴얼(PDF파일, 동영상 강의) 제작에 참여</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div class="p-2 text-center align-middle">
+                                    <p>4차<br/>(2021.05 - 2021.12)</p>
+                                </div>
+                                <div class="p-2">
+                                    <ul>
+                                        <li>사업 PM으로 프로젝트에 참여</li>
+                                        <li>제안서 작업 및 제안 발표 진행</li>
+                                        <li>사내 디자이너에게 받은 디자인을 기반으로 사이트 퍼블리싱 진행</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2018.09 - 2021.11</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2018.09 - 2021.12</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h4 class="mb-0">저에너지건축물 통합지원시스템 구축</h4>
                             <div class="subheading2 mb-1">IDE : Eclipse, DBeaver</div>
-                            <div class="subheading2 mb-1">Framework : EgovFrame 3.7.0, myBatis</div>
-                            <div class="subheading2 mb-3">Language : Java, JavaScript(+jQuery), Oracle</div>
+                            <div class="subheading2 mb-1">Front-end : JavaScript, jQuery, HTML/CSS</div>
+                            <div class="subheading2 mb-1">Back-end : Spring, Java</div>
+                            <div class="subheading2 mb-3">Database : Oracle</div>
                             <ul>
-                                <li>건축물 에너지 통합지원 시스템 고도화</li>
-                                <li>계측기반 건물 상세 에너지정보 서비스 시스템 single page 형식으로 개발</li>
-                                <li>에너지 자재 및 설비 등록 포털 화면설계서 작성 및 자재 상세페이지 개발</li>
+                                <li>
+                                    건축물 에너지 통합지원 시스템 고도화
+                                    <ul>
+                                        <li>주소를 조회하여 에너지 사용량을 유사 세대군과 비교환 결과를 제공하고, 해당 결과에 따른 개선가이드를 제공해주는 화면 개발</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    계측기반 건물 상세 에너지정보 서비스 시스템 개발
+                                    <ul>
+                                        <li>Single Page 형식으로 화면 개발</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    에너지 자재 및 설비 등록 포털
+                                    <ul>
+                                        <li>화면 설계서 작성</li>
+                                        <li>자재 상세 페이지 개발</li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2019.01 - 2020.06</span></div>
@@ -225,13 +265,6 @@
                             <div class="subheading mb-3">항공소프트웨어 공학과</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2009.03 - 2016.08</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">도당고등학교</h3>
-                            <div class="subheading mb-3">이과</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2006.03 - 2009.02</span></div>
                     </div>
                 </div>
             </section>

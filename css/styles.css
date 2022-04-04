@@ -11440,6 +11440,10 @@ section.resume-section .resume-section-content {
   }
 }
 
-.flex-grow-1 li {
+.flex-grow-1 ul > li {
   margin-bottom: 10px;
+}
+
+.textGreen {
+  color: #458d40;
 }
